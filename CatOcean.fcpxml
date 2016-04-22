@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE fcpxml>
+
+<fcpxml version="1.5">
+    <resources>
+        <format id="r1" name="FFVideoFormat1080p2398" frameDuration="1001/24000s" width="1920" height="1080"/>
+        <asset id="r2" name="10426778_1038212842868822_1756382593645646225_n-2" uid="FF0A47ED61B7403783B35E5C617D0FA9" src="file:///Users/elizabethlulanova/Movies/Untitled.fcpbundle/4-21-16/Original%20Media/10426778_1038212842868822_1756382593645646225_n-2.jpg" start="0s" duration="0s" hasVideo="1" format="r3">
+            <bookmark>Ym9va3wDAAAAAAQQMAAAAJCBzf2VdFPGAG9gTpIShYSR1gN2Qx0pDSP/KZX1tVCReAIAAAQAAAADAwAAAAgAKAUAAAABAQAAVXNlcnMAAAARAAAAAQEAAGVsaXphYmV0aGx1bGFub3ZhAAAABgAAAAEBAABNb3ZpZXMAABIAAAABAQAAVW50aXRsZWQuZmNwYnVuZGxlAAAHAAAAAQEAADQtMjEtMTYADgAAAAEBAABPcmlnaW5hbCBNZWRpYQAANQAAAAEBAAAxMDQyNjc3OF8xMDM4MjEyODQyODY4ODIyXzE3NTYzODI1OTM2NDU2NDYyMjVfbi0yLmpwZwAAABwAAAABBgAAEAAAACAAAAA8AAAATAAAAGgAAAB4AAAAkAAAAAgAAAAEAwAAN5gCAAAAAAAIAAAABAMAAKiICQAAAAAACAAAAAQDAADhiAkAAAAAAAgAAAAEAwAA+gKgAAAAAAAIAAAABAMAAAMDoAAAAAAACAAAAAQDAABtA6AAAAAAAAgAAAAEAwAAfwOgAAAAAAAcAAAAAQYAAPQAAAAEAQAAFAEAACQBAAA0AQAARAEAAFQBAAAIAAAAAAQAAEG8yZ1MAAAAGAAAAAECAAABAAAAAAAAAA8AAAAAAAAAAAAAAAAAAAAIAAAABAMAAAUAAAAAAAAABAAAAAMDAAD1AQAACAAAAAEJAABmaWxlOi8vLwwAAAABAQAATWFjaW50b3NoIEhECAAAAAQDAAAAAAD3GwAAAAgAAAAABAAAQbrdqMwAAAAkAAAAAQEAAEE5NjE5OTQxLThBNEMtMzAyMy05NkY0LTMxMTRGQjhBNTlBORgAAAABAgAAgQAAAAEACADvFwAAAQAIAAAAAAAAAAAAAQAAAAEBAAAvAAAAAAAAAAEFAADMAAAA/v///wEAAAAAAAAAEAAAAAQQAADQAAAAAAAAAAUQAABkAQAAAAAAABAQAACYAQAAAAAAAEAQAACIAQAAAAAAAAIgAABkAgAAAAAAAAUgAADUAQAAAAAAABAgAADkAQAAAAAAABEgAAAYAgAAAAAAABIgAAD4AQAAAAAAABMgAAAIAgAAAAAAACAgAABEAgAAAAAAADAgAABwAgAAAAAAAAHAAAC4AQAAAAAAABHAAAAgAAAAAAAAABLAAADIAQAAAAAAABDQAAAEAAAAAAAAAA==</bookmark>
+            <metadata>
+                <md key="com.apple.proapps.mio.ingestDate" value="2016-04-21 20:24:10 -0400"/>
+                <md key="com.apple.proapps.spotlight.kMDItemOrientation" value="0"/>
+            </metadata>
+        </asset>
+        <format id="r3" name="FFVideoFormatRateUndefined" width="960" height="717"/>
+        <format id="r4" name="FFVideoFormat720p2997" frameDuration="1001/30000s" width="1280" height="720"/>
+        <asset id="r5" name="cat" uid="481535E71D157778F229B8E47D058CF3" src="file:///Users/elizabethlulanova/Movies/Untitled.fcpbundle/4-21-16/Original%20Media/cat.m4v" start="0s" duration="154154/30000s" hasVideo="1" format="r4" hasAudio="1" audioSources="1" audioChannels="2" audioRate="48000">
+            <bookmark>Ym9va0wDAAAAAAQQMAAAALOXs1O9Eolp4pYfdChQyJY29fws36p7RH93MohTVgWcSAIAAAQAAAADAwAAAAgAKAUAAAABAQAAVXNlcnMAAAARAAAAAQEAAGVsaXphYmV0aGx1bGFub3ZhAAAABgAAAAEBAABNb3ZpZXMAABIAAAABAQAAVW50aXRsZWQuZmNwYnVuZGxlAAAHAAAAAQEAADQtMjEtMTYADgAAAAEBAABPcmlnaW5hbCBNZWRpYQAABwAAAAEBAABjYXQubTR2ABwAAAABBgAAEAAAACAAAAA8AAAATAAAAGgAAAB4AAAAkAAAAAgAAAAEAwAAN5gCAAAAAAAIAAAABAMAAKiICQAAAAAACAAAAAQDAADhiAkAAAAAAAgAAAAEAwAA+gKgAAAAAAAIAAAABAMAAAMDoAAAAAAACAAAAAQDAABtA6AAAAAAAAgAAAAEAwAAwgWgAAAAAAAcAAAAAQYAAMQAAADUAAAA5AAAAPQAAAAEAQAAFAEAACQBAAAIAAAAAAQAAEG8scTeAAAAGAAAAAECAAABAAAAAAAAAA8AAAAAAAAAAAAAAAAAAAAIAAAABAMAAAUAAAAAAAAABAAAAAMDAAD1AQAACAAAAAEJAABmaWxlOi8vLwwAAAABAQAATWFjaW50b3NoIEhECAAAAAQDAAAAAAD3GwAAAAgAAAAABAAAQbrdqMwAAAAkAAAAAQEAAEE5NjE5OTQxLThBNEMtMzAyMy05NkY0LTMxMTRGQjhBNTlBORgAAAABAgAAgQAAAAEACADvFwAAAQAIAAAAAAAAAAAAAQAAAAEBAAAvAAAAAAAAAAEFAADMAAAA/v///wEAAAAAAAAAEAAAAAQQAACgAAAAAAAAAAUQAAA0AQAAAAAAABAQAABoAQAAAAAAAEAQAABYAQAAAAAAAAIgAAA0AgAAAAAAAAUgAACkAQAAAAAAABAgAAC0AQAAAAAAABEgAADoAQAAAAAAABIgAADIAQAAAAAAABMgAADYAQAAAAAAACAgAAAUAgAAAAAAADAgAABAAgAAAAAAAAHAAACIAQAAAAAAABHAAAAgAAAAAAAAABLAAACYAQAAAAAAABDQAAAEAAAAAAAAAA==</bookmark>
+            <metadata>
+                <md key="com.apple.proapps.spotlight.kMDItemCodecs">
+                    <array>
+                        <string>AAC</string>
+                        <string>H.264</string>
+                    </array>
+                </md>
+                <md key="com.apple.proapps.mio.ingestDate" value="2016-04-21 20:35:56 -0400"/>
+            </metadata>
+        </asset>
+        <effect id="r6" name="Color Correction" uid="FFColorCorrectionEffect"/>
+    </resources>
+    <library location="file:///Users/elizabethlulanova/Movies/Untitled.fcpbundle/">
+        <event name="4-21-16" uid="EAD60260-E462-4289-9F27-94D20F756C2E">
+            <project name="AlexisOcean" uid="CDF4849B-A789-4839-B74E-3F8F45A1A70C">
+                <sequence duration="130130/24000s" format="r1" tcStart="0s" tcFormat="NDF" audioLayout="stereo" audioRate="48k">
+                    <spine>
+                        <video name="10426778_1038212842868822_1756382593645646225_n-2" offset="0s" ref="r2" duration="130130/24000s" start="86394308/24000s">
+                            <adjust-transform scale="1.39 1.39"/>
+                            <adjust-blend amount="0.691"/>
+                            <clip name="cat" lane="-1" offset="21598577/6000s" duration="123123/24000s" format="r4" tcFormat="NDF">
+                                <conform-rate srcFrameRate="29.97" scaleEnabled="0"/>
+                                <video offset="0s" ref="r5" duration="154154/30000s">
+                                    <audio lane="-1" offset="0s" ref="r5" duration="3699696/720000s" role="dialogue" srcCh="1, 2"/>
+                                </video>
+                                <filter-video ref="r6" name="Color Correction">
+                                    <!-- info-asc-cdl: slope="0.976767 0.981636 0.964803" offset="-0.000933287 0.0010874 -0.00106875" power="0.996579 0.996579 0.996579" -->
+                                    <param name="color_global" key="2000" value="0.321879 0.501108"/>
+                                    <param name="color_highlight" key="2001" value="0.714876 0.491352"/>
+                                    <param name="saturation_highlight" key="2005" value="1"/>
+                                    <param name="saturation_midtone" key="2006" value="0.492887"/>
+                                    <param name="saturation_shadow" key="2007" value="0.803483"/>
+                                    <param name="exposure_highlight" key="2009" value="0.48661"/>
+                                </filter-video>
+                            </clip>
+                            <filter-video ref="r6" name="Color Correction">
+                                <!-- info-asc-cdl: slope="0.98419 0.977418 1.02258" offset="0 0 0" power="0.996579 0.996579 0.996579" -->
+                                <param name="color_highlight" key="2001" value="0.691657 0.522582"/>
+                            </filter-video>
+                        </video>
+                    </spine>
+                </sequence>
+            </project>
+        </event>
+        <smart-collection name="Projects" match="all">
+            <match-clip rule="is" type="project"/>
+        </smart-collection>
+        <smart-collection name="All Video" match="any">
+            <match-media rule="is" type="videoOnly"/>
+            <match-media rule="is" type="videoWithAudio"/>
+        </smart-collection>
+        <smart-collection name="Audio Only" match="all">
+            <match-media rule="is" type="audioOnly"/>
+        </smart-collection>
+        <smart-collection name="Stills" match="all">
+            <match-media rule="is" type="stills"/>
+        </smart-collection>
+        <smart-collection name="Favorites" match="all">
+            <match-ratings value="favorites"/>
+        </smart-collection>
+    </library>
+</fcpxml>
