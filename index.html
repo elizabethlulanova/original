@@ -9,18 +9,91 @@
     #Cat {
         width: 100%;
         border-color: black;
+        z-index: -10;
     }
     
-    #Kris {
+    .butterfly {
+        z-index: 10;
+        position: fixed;
+        background-image: url("https://i2.wp.com/getaway.house/wp-content/uploads/2014/08/icon2.png?zoom=3&resize=175%2C175&ssl=1");
+        width: 200px;
+        height: 200px;
+        background-size: cover;
+        display: inline-block;
+    }
+    
+    #a {
+        top: 10%;
+        left: 44%;
+    }
+    
+    #b {
+        top: 10%;
+        left: 10%;
+    }
+    
+    #c {
+        top: 10%;
+        right: 10%;
+    }
+    
+    #How {
         width: 100%;
-        border-color: black;
+        height: 500px;
+        position: relative;
+        z-index: 10;
+        top: 0%;
+        background-color: #cccccc;
+    }
+    
+    #Programs {
+        width: 100%;
+        height: 500px;
+        opacity: 90%;
+        position: relative;
+        z-index: 10;
+        top: 0%;
+        background-color: teal;
+    }
+
+        .butterfly1 {
+        z-index: 10;
+        position: relative;
+        background-image: url("https://i2.wp.com/getaway.house/wp-content/uploads/2014/08/icon2.png?zoom=3&resize=175%2C175&ssl=1");
+        width: 200px;
+        height: 200px;
+        background-size: cover;
+        display: inline-block;
+    
+    #d {
+       
+        top: 10%;
+        left: 44%;
+    }
+    
+    #e {
+        top: 10%;
+        left: 10%;
+    }
+    
+    #f {
+        top: 10%;
+        right: 10%;
     }
     </style>
 </head>
 
 <body>
-
-    <video id="Cat" src="Facebook.mov" autoplay loop muted></video>
+    <video id="Cat" src="Facebook.mov" autoplay loop muted>
+    </video>
+    <div id="a" class="butterfly"></div>
+    <div id="b" class="butterfly"></div>
+    <div id="c" class="butterfly"></div>
+    <div id="How"></div>
+    <div id="Programs"></div>
+    <div id="d" class="butterfly1"></div>
+    <div id="e" class="butterfly1"></div>
+    <div id="f" class="butterfly1"></div>
 </body>
 
 </html>
