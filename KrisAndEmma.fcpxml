@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE fcpxml>
+
+<fcpxml version="1.5">
+    <resources>
+        <format id="r1" name="FFVideoFormat1080p2398" frameDuration="1001/24000s" width="1920" height="1080"/>
+        <media id="r2" name="ButterflyKris" uid="8/NWGQdKSieS/BpOUD/VtA">
+            <sequence duration="139139/24000s" format="r1" tcStart="0s">
+                <spine>
+                    <clip name="MVI_4541" offset="0s" duration="139139/24000s" start="951886335/24000s" format="r3" tcFormat="DF">
+                        <conform-rate srcFrameRate="29.97" scaleEnabled="0"/>
+                        <adjust-transform position="0 18.5185" scale="1.4 1.4"/>
+                        <adjust-blend amount="0.7"/>
+                        <adjust-volume amount="-96dB"/>
+                        <video offset="1189856668/30000s" ref="r4" duration="176176/30000s" start="1189856668/30000s">
+                            <audio lane="-1" offset="28556560032/720000s" ref="r4" duration="4228224/720000s" start="28556560032/720000s" role="effects" srcCh="1, 2"/>
+                        </video>
+                        <video name="Butterfly" lane="-1" offset="951886335/24000s" ref="r5" duration="139139/24000s" start="86399313/24000s">
+                            <adjust-transform position="-2.77778 0" scale="1.18 1.18"/>
+                            <filter-video ref="r7" name="Color Correction">
+                                <!-- info-asc-cdl: slope="1.0047 1.0047 1.0047" offset="0 0 0" power="0.996579 0.996579 0.996579" -->
+                                <param name="saturation_midtone" key="2006" value="0.812539"/>
+                                <param name="exposure_highlight" key="2009" value="0.502352"/>
+                            </filter-video>
+                        </video>
+                        <filter-video ref="r7" name="Color Correction">
+                            <!-- info-asc-cdl: slope="1.04878 1.04878 1.04878" offset="0 0 0" power="0.996579 0.996579 0.996579" -->
+                            <param name="saturation_midtone" key="2006" value="0.679163"/>
+                            <param name="exposure_highlight" key="2009" value="0.52439"/>
+                        </filter-video>
+                    </clip>
+                </spine>
+            </sequence>
+        </media>
+        <format id="r3" name="FFVideoFormat1080p2997" frameDuration="1001/30000s" width="1920" height="1080"/>
+        <asset id="r4" name="MVI_4541" uid="619396354CE2E9880C75044914686C8A" src="file:///Users/elizabethlulanova/Movies/Untitled.fcpbundle/4-21-16/Original%20Media/MVI_4541.mov" start="1189856668/30000s" duration="176176/30000s" hasVideo="1" format="r3" hasAudio="1" audioSources="1" audioChannels="2" audioRate="48000">
+            <bookmark>Ym9va1ADAAAAAAQQMAAAAADakSpIbrpO9B9IzW+2iUHjcNQ3nffGbwffzpBcCRFBTAIAAAQAAAADAwAAAAgAKAUAAAABAQAAVXNlcnMAAAARAAAAAQEAAGVsaXphYmV0aGx1bGFub3ZhAAAABgAAAAEBAABNb3ZpZXMAABIAAAABAQAAVW50aXRsZWQuZmNwYnVuZGxlAAAHAAAAAQEAADQtMjEtMTYADgAAAAEBAABPcmlnaW5hbCBNZWRpYQAADAAAAAEBAABNVklfNDU0MS5tb3YcAAAAAQYAABAAAAAgAAAAPAAAAEwAAABoAAAAeAAAAJAAAAAIAAAABAMAADeYAgAAAAAACAAAAAQDAACoiAkAAAAAAAgAAAAEAwAA4YgJAAAAAAAIAAAABAMAAPoCoAAAAAAACAAAAAQDAAADA6AAAAAAAAgAAAAEAwAAbQOgAAAAAAAIAAAABAMAADngswAAAAAAHAAAAAEGAADIAAAA2AAAAOgAAAD4AAAACAEAABgBAAAoAQAACAAAAAAEAABBvMVTEgAAABgAAAABAgAAAQAAAAAAAAAPAAAAAAAAAAAAAAAAAAAACAAAAAQDAAAFAAAAAAAAAAQAAAADAwAA9QEAAAgAAAABCQAAZmlsZTovLy8MAAAAAQEAAE1hY2ludG9zaCBIRAgAAAAEAwAAAAAA9xsAAAAIAAAAAAQAAEG63ajMAAAAJAAAAAEBAABBOTYxOTk0MS04QTRDLTMwMjMtOTZGNC0zMTE0RkI4QTU5QTkYAAAAAQIAAIEAAAABAAgA7xcAAAEACAAAAAAAAAAAAAEAAAABAQAALwAAAAAAAAABBQAAzAAAAP7///8BAAAAAAAAABAAAAAEEAAApAAAAAAAAAAFEAAAOAEAAAAAAAAQEAAAbAEAAAAAAABAEAAAXAEAAAAAAAACIAAAOAIAAAAAAAAFIAAAqAEAAAAAAAAQIAAAuAEAAAAAAAARIAAA7AEAAAAAAAASIAAAzAEAAAAAAAATIAAA3AEAAAAAAAAgIAAAGAIAAAAAAAAwIAAARAIAAAAAAAABwAAAjAEAAAAAAAARwAAAIAAAAAAAAAASwAAAnAEAAAAAAAAQ0AAABAAAAAAAAAA=</bookmark>
+            <metadata>
+                <md key="com.apple.proapps.spotlight.kMDItemCodecs">
+                    <array>
+                        <string>H.264</string>
+                        <string>Linear PCM</string>
+                    </array>
+                </md>
+            </metadata>
+        </asset>
+        <asset id="r5" name="Butterfly" uid="84AE69FAF6A12980DDB9D84EC928FA0D" src="file:///Users/elizabethlulanova/Movies/Untitled.fcpbundle/4-21-16/Original%20Media/Butterfly.jpg" start="0s" duration="0s" hasVideo="1" format="r6">
+            <bookmark>Ym9va1QDAAAAAAQQMAAAAC90vnY8YvSxd88V1MuYR1fZ3UCzsmhv9NJ+qnL4SDZLUAIAAAQAAAADAwAAAAgAKAUAAAABAQAAVXNlcnMAAAARAAAAAQEAAGVsaXphYmV0aGx1bGFub3ZhAAAABgAAAAEBAABNb3ZpZXMAABIAAAABAQAAVW50aXRsZWQuZmNwYnVuZGxlAAAHAAAAAQEAADQtMjEtMTYADgAAAAEBAABPcmlnaW5hbCBNZWRpYQAADQAAAAEBAABCdXR0ZXJmbHkuanBnAAAAHAAAAAEGAAAQAAAAIAAAADwAAABMAAAAaAAAAHgAAACQAAAACAAAAAQDAAA3mAIAAAAAAAgAAAAEAwAAqIgJAAAAAAAIAAAABAMAAOGICQAAAAAACAAAAAQDAAD6AqAAAAAAAAgAAAAEAwAAAwOgAAAAAAAIAAAABAMAAG0DoAAAAAAACAAAAAQDAADB9bMAAAAAABwAAAABBgAAzAAAANwAAADsAAAA/AAAAAwBAAAcAQAALAEAAAgAAAAABAAAQbzepp0AAAAYAAAAAQIAAAEAAAAAAAAADwAAAAAAAAAAAAAAAAAAAAgAAAAEAwAABQAAAAAAAAAEAAAAAwMAAPUBAAAIAAAAAQkAAGZpbGU6Ly8vDAAAAAEBAABNYWNpbnRvc2ggSEQIAAAABAMAAAAAAPcbAAAACAAAAAAEAABBut2ozAAAACQAAAABAQAAQTk2MTk5NDEtOEE0Qy0zMDIzLTk2RjQtMzExNEZCOEE1OUE5GAAAAAECAACBAAAAAQAIAO8XAAABAAgAAAAAAAAAAAABAAAAAQEAAC8AAAAAAAAAAQUAAMwAAAD+////AQAAAAAAAAAQAAAABBAAAKgAAAAAAAAABRAAADwBAAAAAAAAEBAAAHABAAAAAAAAQBAAAGABAAAAAAAAAiAAADwCAAAAAAAABSAAAKwBAAAAAAAAECAAALwBAAAAAAAAESAAAPABAAAAAAAAEiAAANABAAAAAAAAEyAAAOABAAAAAAAAICAAABwCAAAAAAAAMCAAAEgCAAAAAAAAAcAAAJABAAAAAAAAEcAAACAAAAAAAAAAEsAAAKABAAAAAAAAENAAAAQAAAAAAAAA</bookmark>
+            <metadata>
+                <md key="com.apple.proapps.mio.ingestDate" value="2016-05-07 18:42:06 -0400"/>
+                <md key="com.apple.proapps.spotlight.kMDItemOrientation" value="0"/>
+            </metadata>
+        </asset>
+        <format id="r6" name="FFVideoFormatRateUndefined" width="960" height="625"/>
+        <effect id="r7" name="Color Correction" uid="FFColorCorrectionEffect"/>
+        <media id="r8" name="ArtEmma" uid="5ei9VFB7Q3m+dxsddxlpqQ">
+            <sequence duration="223223/24000s" format="r1" tcStart="0s">
+                <spine>
+                    <clip name="MVI_4582" offset="0s" duration="223223/24000s" start="955622868/24000s" format="r3" tcFormat="DF">
+                        <conform-rate srcFrameRate="29.97" scaleEnabled="0"/>
+                        <adjust-blend amount="0.4217"/>
+                        <adjust-volume amount="-96dB"/>
+                        <video offset="1194527334/30000s" ref="r9" duration="281281/30000s" start="1194527334/30000s">
+                            <adjust-stabilization type="automatic">
+                                <param name="Translation Smooth" key="102" value="1.18"/>
+                            </adjust-stabilization>
+                            <audio lane="-1" offset="28668656016/720000s" ref="r9" duration="6750744/720000s" start="28668656016/720000s" role="effects" srcCh="1, 2"/>
+                        </video>
+                        <video name="10345754_1038212812868825_8975763652376331327_n(1)" lane="-1" offset="955622868/24000s" ref="r10" duration="223223/24000s" start="86398312/24000s">
+                            <adjust-transform position="-9.25926 0" scale="1.43 1.43"/>
+                        </video>
+                        <analysis-marker start="199087889/5000s" duration="14014/30000s">
+                            <stabilization-type value="excessiveShake"/>
+                        </analysis-marker>
+                        <filter-video ref="r7" name="Color Correction">
+                            <!-- info-asc-cdl: slope="1.53067 1.53067 1.53067" offset="0 0 0" power="0.996579 0.996579 0.996579" -->
+                            <param name="saturation_midtone" key="2006" value="0.642685"/>
+                            <param name="exposure_highlight" key="2009" value="0.765333"/>
+                        </filter-video>
+                        <filter-video ref="r7" name="Color Correction">
+                            <!-- info-asc-cdl: slope="0.989467 0.989467 0.989467" offset="-0.000971704 -0.000971704 -0.000971704" power="0.999002 0.999002 0.999002" -->
+                            <param name="exposure_highlight" key="2009" value="0.494248"/>
+                            <param name="exposure_midtone" key="2010" value="0.498484"/>
+                            <param name="exposure_shadow" key="2011" value="0.499514"/>
+                        </filter-video>
+                    </clip>
+                </spine>
+            </sequence>
+        </media>
+        <asset id="r9" name="MVI_4582" uid="D1A52D187D38AD311B84D26859BB42C6" src="file:///Users/elizabethlulanova/Movies/Untitled.fcpbundle/4-21-16/Original%20Media/MVI_4582.mov" start="1194527334/30000s" duration="281281/30000s" hasVideo="1" format="r3" hasAudio="1" audioSources="1" audioChannels="2" audioRate="48000">
+            <bookmark>Ym9va1ADAAAAAAQQMAAAAOo59Hz+DN02D6TrV6Azkouazw7gY6bgZDgQtRAMXQmETAIAAAQAAAADAwAAAAgAKAUAAAABAQAAVXNlcnMAAAARAAAAAQEAAGVsaXphYmV0aGx1bGFub3ZhAAAABgAAAAEBAABNb3ZpZXMAABIAAAABAQAAVW50aXRsZWQuZmNwYnVuZGxlAAAHAAAAAQEAADQtMjEtMTYADgAAAAEBAABPcmlnaW5hbCBNZWRpYQAADAAAAAEBAABNVklfNDU4Mi5tb3YcAAAAAQYAABAAAAAgAAAAPAAAAEwAAABoAAAAeAAAAJAAAAAIAAAABAMAADeYAgAAAAAACAAAAAQDAACoiAkAAAAAAAgAAAAEAwAA4YgJAAAAAAAIAAAABAMAAPoCoAAAAAAACAAAAAQDAAADA6AAAAAAAAgAAAAEAwAAbQOgAAAAAAAIAAAABAMAAD0JpAAAAAAAHAAAAAEGAADIAAAA2AAAAOgAAAD4AAAACAEAABgBAAAoAQAACAAAAAAEAABBvMVUkAAAABgAAAABAgAAAQAAAAAAAAAPAAAAAAAAAAAAAAAAAAAACAAAAAQDAAAFAAAAAAAAAAQAAAADAwAA9QEAAAgAAAABCQAAZmlsZTovLy8MAAAAAQEAAE1hY2ludG9zaCBIRAgAAAAEAwAAAAAA9xsAAAAIAAAAAAQAAEG63ajMAAAAJAAAAAEBAABBOTYxOTk0MS04QTRDLTMwMjMtOTZGNC0zMTE0RkI4QTU5QTkYAAAAAQIAAIEAAAABAAgA7xcAAAEACAAAAAAAAAAAAAEAAAABAQAALwAAAAAAAAABBQAAzAAAAP7///8BAAAAAAAAABAAAAAEEAAApAAAAAAAAAAFEAAAOAEAAAAAAAAQEAAAbAEAAAAAAABAEAAAXAEAAAAAAAACIAAAOAIAAAAAAAAFIAAAqAEAAAAAAAAQIAAAuAEAAAAAAAARIAAA7AEAAAAAAAASIAAAzAEAAAAAAAATIAAA3AEAAAAAAAAgIAAAGAIAAAAAAAAwIAAARAIAAAAAAAABwAAAjAEAAAAAAAARwAAAIAAAAAAAAAASwAAAnAEAAAAAAAAQ0AAABAAAAAAAAAA=</bookmark>
+            <metadata>
+                <md key="com.apple.proapps.spotlight.kMDItemCodecs">
+                    <array>
+                        <string>H.264</string>
+                        <string>Linear PCM</string>
+                    </array>
+                </md>
+                <md key="com.apple.proapps.mio.ingestDate" value="2016-04-24 04:18:49 -0400"/>
+            </metadata>
+        </asset>
+        <asset id="r10" name="10345754_1038212812868825_8975763652376331327_n(1)" uid="A5959D1021B29AEA7B1315E7A98CCD09" src="file:///Users/elizabethlulanova/Movies/Untitled.fcpbundle/4-21-16/Original%20Media/10345754_1038212812868825_8975763652376331327_n(1).jpg" start="0s" duration="0s" hasVideo="1" format="r11">
+            <bookmark>Ym9va3wDAAAAAAQQMAAAAI+mT3jq5vC300oHytGjI0pM1qZdnYqAtYHy0TYUsNOeeAIAAAQAAAADAwAAAAgAKAUAAAABAQAAVXNlcnMAAAARAAAAAQEAAGVsaXphYmV0aGx1bGFub3ZhAAAABgAAAAEBAABNb3ZpZXMAABIAAAABAQAAVW50aXRsZWQuZmNwYnVuZGxlAAAHAAAAAQEAADQtMjEtMTYADgAAAAEBAABPcmlnaW5hbCBNZWRpYQAANgAAAAEBAAAxMDM0NTc1NF8xMDM4MjEyODEyODY4ODI1Xzg5NzU3NjM2NTIzNzYzMzEzMjdfbigxKS5qcGcAABwAAAABBgAAEAAAACAAAAA8AAAATAAAAGgAAAB4AAAAkAAAAAgAAAAEAwAAN5gCAAAAAAAIAAAABAMAAKiICQAAAAAACAAAAAQDAADhiAkAAAAAAAgAAAAEAwAA+gKgAAAAAAAIAAAABAMAAAMDoAAAAAAACAAAAAQDAABtA6AAAAAAAAgAAAAEAwAAIeWzAAAAAAAcAAAAAQYAAPQAAAAEAQAAFAEAACQBAAA0AQAARAEAAFQBAAAIAAAAAAQAAEG80b8/AAAAGAAAAAECAAABAAAAAAAAAA8AAAAAAAAAAAAAAAAAAAAIAAAABAMAAAUAAAAAAAAABAAAAAMDAAD1AQAACAAAAAEJAABmaWxlOi8vLwwAAAABAQAATWFjaW50b3NoIEhECAAAAAQDAAAAAAD3GwAAAAgAAAAABAAAQbrdqMwAAAAkAAAAAQEAAEE5NjE5OTQxLThBNEMtMzAyMy05NkY0LTMxMTRGQjhBNTlBORgAAAABAgAAgQAAAAEACADvFwAAAQAIAAAAAAAAAAAAAQAAAAEBAAAvAAAAAAAAAAEFAADMAAAA/v///wEAAAAAAAAAEAAAAAQQAADQAAAAAAAAAAUQAABkAQAAAAAAABAQAACYAQAAAAAAAEAQAACIAQAAAAAAAAIgAABkAgAAAAAAAAUgAADUAQAAAAAAABAgAADkAQAAAAAAABEgAAAYAgAAAAAAABIgAAD4AQAAAAAAABMgAAAIAgAAAAAAACAgAABEAgAAAAAAADAgAABwAgAAAAAAAAHAAAC4AQAAAAAAABHAAAAgAAAAAAAAABLAAADIAQAAAAAAABDQAAAEAAAAAAAAAA==</bookmark>
+            <metadata>
+                <md key="com.apple.proapps.mio.ingestDate" value="2016-05-07 17:49:09 -0400"/>
+                <md key="com.apple.proapps.spotlight.kMDItemOrientation" value="0"/>
+            </metadata>
+        </asset>
+        <format id="r11" name="FFVideoFormatRateUndefined" width="960" height="717"/>
+    </resources>
+    <library location="file:///Users/elizabethlulanova/Movies/Untitled.fcpbundle/">
+        <event name="4-21-16" uid="EAD60260-E462-4289-9F27-94D20F756C2E">
+            <project name="ButterflyKris" uid="7FB92D20-216D-4CE5-93B1-E1785FAAD8B4">
+                <sequence duration="362362/24000s" format="r1" tcStart="0s" audioLayout="stereo" audioRate="48k">
+                    <spine>
+                        <ref-clip name="ButterflyKris" offset="0s" ref="r2" duration="138138/24000s"/>
+                        <ref-clip name="ArtEmma" offset="138138/24000s" ref="r8" duration="223223/24000s"/>
+                        <ref-clip name="ButterflyKris" offset="361361/24000s" ref="r2" duration="1001/24000s" start="138138/24000s"/>
+                    </spine>
+                </sequence>
+            </project>
+        </event>
+        <smart-collection name="Projects" match="all">
+            <match-clip rule="is" type="project"/>
+        </smart-collection>
+        <smart-collection name="All Video" match="any">
+            <match-media rule="is" type="videoOnly"/>
+            <match-media rule="is" type="videoWithAudio"/>
+        </smart-collection>
+        <smart-collection name="Audio Only" match="all">
+            <match-media rule="is" type="audioOnly"/>
+        </smart-collection>
+        <smart-collection name="Stills" match="all">
+            <match-media rule="is" type="stills"/>
+        </smart-collection>
+        <smart-collection name="Favorites" match="all">
+            <match-ratings value="favorites"/>
+        </smart-collection>
+    </library>
+</fcpxml>
