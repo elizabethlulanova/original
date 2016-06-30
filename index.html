@@ -156,10 +156,9 @@
         align-items: center;
         font-family: courier;
     }
-
+    
     #Button {
-        height: 50x
-         width: 100%;
+        height: 50x width: 100%;
         position: relative;
         z-index: 10;
         top: 0%;
@@ -168,9 +167,9 @@
         color: white;
         font-size: 30px;
         align-items: center;
-        font-family: courier;;
+        font-family: courier;
+        ;
     }
-  
     
     #Programs {
         width: 100%;
@@ -199,7 +198,6 @@
         font-size: 20px;
         font-family: courier;
     }
-    
     /*#Space2 {
         height: 30px;
         width: 100%;
@@ -237,8 +235,7 @@
         font-size: 20px;
         font-family: courier;
     }
-    
-   /* #Space3 {
+    /* #Space3 {
         height: 30px;
         width: 100%;
         position: relative;
@@ -288,8 +285,7 @@
         width: 40%;
         float: right;
     }
-    
-  /*  #Space4 {
+    /*  #Space4 {
         height: 30px;
         width: 100%;
         position: relative;
@@ -302,6 +298,7 @@
         font-family: courier;
     }
     */
+    
     #Gap {
         width: 100%;
         height: 400px;
@@ -314,7 +311,6 @@
         font-size: 30px;
         font-family: courier;
     }
-    
     /*#Space5 {
         height: 30px;
         width: 100%;
@@ -359,6 +355,11 @@
         position: relative;
         top: 30%;
     }
+
+a.LinkButton:visited {color: white;}}
+
+}
+
     </style>
 </head>
 
@@ -366,19 +367,20 @@
     <audio src="Lindsey Stirling - Night Vision.mp3" autoplay loop></audio>
     <div id="Navbar">
         <div id="Three">
-             ABOUT PROGRAMS SPOTLIGHT
+            <a href="#About" class="LinkButton">ABOUT</a> PROGRAMS SPOTLIGHT
         </div>
     </div>
     <div id="Title">
         <br> A MEANINGFUL CONNECTION
     </div>
     <div id="Subtitle">
-        <br><br> We live in a socially isolated society - let's change that.
+        <br>
+        <br> We live in a socially isolated society - let's change that.
     </div>
     <video id="Kris" src="OriginalMontage.mov" autoplay loop muted>
     </video>
     <div id="How">
-       HOW IT WORKS
+        <a name="About" ></a> HOW IT WORKS
         <br>
         <div id="As">
             <br> As penpals, we connect as citizens of a common world. Share your stories, seek neutral advice or simply lend a listening ear.
@@ -389,7 +391,7 @@
         <div id="c" class="butterfly"></div>
     </div>
     <div id="Started">
-        <button id="Button"> LET'S GET STARTED </button>
+        <button id="Button" onclick="location.href'SecondPage.html';"> LET'S GET STARTED </button>
     </div>
     <div id="Programs">
         PROGRAMS
@@ -479,7 +481,6 @@
     </div>
     <br>
     <div id="Discover">
-        
     </div>
     <!-- <div id="Emma1"> <img src="Emma1.jpg" alt="Mountain View"></div>
     <div id="Emma2"> <img src="Emma2.jpg"></div>
